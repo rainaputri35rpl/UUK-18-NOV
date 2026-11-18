@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Teknologi</title>
+</head>
+<body>
+
+    <header>
+    <h1>TechWorld - Dunia Teknologi</h1>
+    <p>Temukan Informasi dan Perkembangan Teknologi Terbaru</p>
+    </header>
+    
+    <main>
+
+    <article class="article">
+
+        <h2>Perkembangan Teknologi di Era Digital</h2>
+
+        <img src="img/teknologi.jpg"
+             alt="Ilustrasi teknologi">
+
+        <p>
+            Teknologi merupakan salah satu bagian penting dalam
+            kehidupan manusia. Seiring perkembangan zaman, teknologi
+            semakin berkembang dan memberikan banyak kemudahan dalam
+            berbagai bidang, seperti pendidikan, komunikasi, kesehatan,
+            dan pekerjaan. Dengan adanya teknologi, manusia dapat
+            memperoleh informasi dengan lebih cepat dan mudah.
+        </p>
+
+        <p>
+            Perkembangan teknologi digital juga membuat kegiatan
+            sehari-hari menjadi lebih praktis. Internet, komputer,
+            dan smartphone membantu manusia berkomunikasi serta
+            mendapatkan pengetahuan dari berbagai sumber. Oleh karena
+            itu, kita perlu menggunakan teknologi secara bijak dan
+            bertanggung jawab agar dapat memberikan manfaat positif.
+        </p>
+
+    </article>
+
+    <aside class="aside">
+
+        <img class="foto-profil"
+             src="img/foto.jpeg"
+             alt="Foto profil penulis">
+
+        <h3>Tentang Penulis</h3>
+
+        <p>
+            Halo! Saya adalah penulis blog TechWorld.
+            Saya memiliki ketertarikan terhadap dunia teknologi,
+            khususnya perkembangan teknologi digital, komputer,
+            dan internet. Melalui blog ini, saya ingin berbagi
+            informasi dan pengetahuan seputar teknologi.
+        </p>
+
+    </aside>
+
+</main>
+
+<h2 class="judul-form">Hubungi Kami</h2>
+
+<form id="formKontak" action="#" method="get">
+
+    <label for="nama">Nama:</label>
+    <input type="text"
+           id="nama"
+           name="nama"
+           required
+           minlength="3"
+           maxlength="50">
+    <br>
+
+    <label for="email">Email:</label>
+    <input type="email"
+           id="email"
+           name="email"
+           required>
+    <br>
+
+    <label for="topik">Topik:</label>
+    <select id="topik" name="topik" required>
+        <option value="">-- Pilih --</option>
+        <option value="Teknologi">Teknologi</option>
+        <option value="Pendidikan">Pendidikan</option>
+        <option value="Informasi">Informasi</option>
+        <option value="Penalaran">Penalaran</option>
+    </select>
+    <br>
+
+    <label for="pesan">Pesan:</label>
+    <textarea id="pesan"
+              name="pesan"
+              required
+              minlength="10"
+              maxlength="200"></textarea>
+    <br>
+
+    <div class="checkbox">
+        <input type="checkbox"
+               id="langganan"
+               name="langganan">
+    <br>
+
+        <label for="langganan">
+            Langganan artikel baru
+        </label>
+    </div>
+    <br>
+
+    <button type="submit">Kirim</button>
+
+</form>
+
+<footer>
+    <p>&copy; 2026 TechWorld. Semua Hak Dilindungi.</p>
+    <p>Hak Cipta Blog Teknologi</p>
+</footer>
+       
+<link rel="stylesheet" href="web.css">
+</body>
+</html>
